@@ -1,6 +1,6 @@
 from typing import Any
 
-from rag_task.models import Chunk, Document, Query, RetrievedChunk
+from models import Chunk, Document, Query, RetrievedChunk
 
 
 def split_text_fixed(text: str, max_chars: int) -> list[str]:

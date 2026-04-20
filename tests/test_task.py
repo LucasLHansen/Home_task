@@ -1,4 +1,4 @@
-from rag_task.models import (
+from src.models import (
     Chunk,
     Document,
     DocumentSection,
@@ -7,7 +7,7 @@ from rag_task.models import (
     lexical_results,
     sample_documents,
 )
-from rag_task.task import (
+from src.tasks import (
     build_answer_payload,
     chunk_document,
     filter_chunks_by_metadata,
